@@ -1,5 +1,7 @@
 <ul>
-<% @projects.each do |project| %>
-  <li><%= project %></li>
-<% end %>
+  <% @project_hash.each do |thing| %>
+    <% thing.each do |project_id, project_name| %>
+      <li><a href="/projects/<%= project_id %>"><%= project_name %></a></li>
+    <% end %>
+  <% end %>
 </ul>

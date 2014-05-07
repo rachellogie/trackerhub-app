@@ -25,9 +25,15 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'faraday', '~> 0.9.0'
 gem 'dotenv-rails', '~> 0.11.1'
 
+
 group :development, :test do
   gem 'rspec-rails', '~> 2.14.2'
   gem 'capybara', '~> 2.2.1'
+end
+
+group :testing do
+  gem 'vcr', '~> 2.9.0'
+  gem 'webmock', '~> 1.17.4'
 end
 
 
