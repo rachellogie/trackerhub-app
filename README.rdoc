@@ -2,6 +2,3 @@ Tracker URL:
 ===
 https://www.pivotaltracker.com/n/projects/1075504
 
-Heroku Staging URL:
-===
-http://lit-ravine-7302.herokuapp.com/
