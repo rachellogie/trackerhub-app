@@ -5,3 +5,13 @@
     <li><%= story %></li>
   <% end %>
 </ul>
+
+<p><%= "_" * 60 %></p>
+
+<h1>Tracker Comments</h1>
+
+<ul>
+  <% @tracker_comments.each do |tracker_comment| %>
+    <li><%= tracker_comment %></li>
+  <% end %>
+</ul>

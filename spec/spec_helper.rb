@@ -45,4 +45,7 @@ end
 VCR.configure do |c|
   c.cassette_library_dir = 'spec/vcr_cassettes'
   c.hook_into :webmock
+
+  c.filter_sensitive_data('<TRACKER_API_KEY>') { ENV['TRACKER_API_KEY']}
 end
+
